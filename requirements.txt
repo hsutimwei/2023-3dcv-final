@@ -1,0 +1,6 @@
+torch==2.1.1
+numpy==1.26.0
+kornia==0.7.0
+kornia_rs==0.0.8
+open3d==0.17.0
+opencv-python==4.8.1.78
