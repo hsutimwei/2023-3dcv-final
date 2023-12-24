@@ -7,8 +7,8 @@ Python 3.10.12
 
 ## Important
 To run `vo_loftr.py`, you need to patch two files in your `kornia` package.
-Replace `site-packages/kornia/feature/loftr/loftr.py' with our `loftr/loftr.py`.
-Replace `site-packages/kornia/feature/loftr/utils/coarse_matching.py' with our `loftr/coarse_matching.py`.
+Replace `site-packages/kornia/feature/loftr/loftr.py` with our `loftr/loftr.py`.
+Replace `site-packages/kornia/feature/loftr/utils/coarse_matching.py` with our `loftr/coarse_matching.py`.
 The patching will change the api of `kornia` package to obtain the feature descriptor of LoFTR. Make sure you modify the module files in a disposable isolated python environment.
 
 
